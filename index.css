@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+#main_sec {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+#_main_heading {
+  text-decoration: underline;
+  word-spacing: 10px;
+}
+#_main_heading:first-letter {
+  color: rgb(218, 0, 0);
+  font-size: 60px;
+  font-weight: bold;
+}
+#para_1{
+    text-transform: uppercase;
+    font-style: italic;
+}
+#para_2{
+    text-indent:70px;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+#para_3{
+    text-transform: capitalize;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.521);
+    line-height: 40px;
+}
+#para_4{
+    text-transform: capitalize;
+    line-height: 40px;
+    color: rgb(95, 95, 95);
+}
+._homepage{
+  text-decoration: none;
+}
+._homepage:hover{
+  text-decoration: underline;
+  color: rgb(115, 115, 255);
+}
+._homepage:active{
+  border: 1px solid blue;
+}
+._homepage:visited{
+  color: red;
+}
+
+#para_5{
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 30px;
+  color: rgb(95, 95, 95);
+}
+#para_5:first-line{
+    text-decoration: underline;
+    
+}
+
+input{
+  height: 50px;
+  /* width: 100px; */
+  font-size: 12px;
+  letter-spacing: 5px;
+  
+}
+input:focus{
+  background-color: red;
+}
+input:active{
+  background-color: green;
+}
+
